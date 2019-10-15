@@ -7,7 +7,6 @@ public class EmpiricalAnalysis {
             long start = System.nanoTime();
             CreateArray ca = new CreateArray();
             ca.run(num);
-            //System.out.println(ca.run(num));
             long end = System.nanoTime();
             System.out.println("The algorithm for " + num + " numbers ran in " + (end - start) + " nanoseconds.\n");
         }
